@@ -1,0 +1,194 @@
+/* GNU General Public License v3.0 | By Rosendo Camal */
+
+.sec-history {
+	padding-top: 12rem;
+}
+
+.sec-philosophy h2,
+.sec-valors h2,
+.sec-politcs h2 {
+	padding: 4rem 0;
+}
+
+.sec-history p {
+	margin: 2rem 4.5rem;
+	font-size: 100%;
+}
+
+.sec-contact>p {
+	margin: 2rem 4.5rem;
+	font-size: 100%;
+}
+
+.sec-philosophy {
+	font-family: 'Poppins', sans-serif;
+	display: grid;
+	place-content: center;
+}
+
+.sec-philosophy h2 {
+	padding-bottom: 4rem;
+}
+
+.sec-philosophy h3 {
+	color: #fff;
+}
+
+.sec-philosophy i {
+	color: #fff;
+	font-size: 500%;
+	position: absolute;
+	top: 42%;
+	left: 35%;
+}
+
+.sec-philosophy figure {
+	margin-bottom: 2rem;
+}
+
+.card {
+	margin: auto;
+	border-radius: 50px;
+	position: relative;
+	width: 78%;
+	height: auto;
+	background-color: rgb(255, 148, 112);
+	overflow: hidden;
+}
+
+.card:hover i {
+	display: none;
+}
+
+.card__image {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	scale: 1.15;
+	transition: opacity 0.25s, scale 0.35s;
+}
+
+.card:hover .card__image {
+	opacity: 0.5;
+	scale: 1;
+}
+
+.card__body {
+	position: absolute;
+	inset: 0;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 15px;
+	justify-content: center;
+}
+
+.card__body::before {
+	content: '';
+	position: absolute;
+	inset: 20px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	opacity: 0;
+	scale: 1.25;
+	transition: opacity 0.25s, scale 0.25s;
+}
+
+.card:hover .card__body::before {
+	opacity: 1;
+	scale: 1;
+}
+
+.card__title {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card__description {
+	font-size: 14px;
+	opacity: 0;
+	translate: -25px;
+	transition: opacity 0.25s, translate 0.25s;
+}
+
+.card:hover .card__description {
+	opacity: 1;
+	translate: 0;
+}
+
+.valors-list {
+	padding: 0 4.5rem;
+}
+
+.valors-items {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 3rem;
+	margin: 1rem 0;
+	font-size: 105%;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.valors-items span {
+	font-size: 180%;
+	text-align: right;
+	color: rgb(255, 148, 112);
+}
+
+.sec-politcs {
+	margin-bottom: 4rem;
+}
+
+details {
+	margin: auto;
+	width: 80%;
+	border: 2px solid rgb(255, 148, 112);
+	border-radius: 50px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+details:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+summary,
+details[open] {
+	padding: 10px;
+}
+
+details[open] {
+	border-radius: 32px;
+}
+
+details[open] summary {
+	border-bottom: 2px solid rgb(255, 148, 112);
+	border-radius: 5px;
+	margin-bottom: 2rem;
+}
+
+summary {
+	color: rgb(242, 49, 76);
+	font-weight: bold;
+}
+
+.pgeneral-list,
+.pscustomer,
+.pexchangesreturns-item,
+.paymentm-list {
+	margin: 0 2rem;
+}
+
+.pgeneral-item p,
+.pscustomer,
+.pexchangesreturns-item p,
+.paymentm-item p {
+	text-align: justify;
+}
