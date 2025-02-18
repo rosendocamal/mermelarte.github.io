@@ -13,13 +13,20 @@ Este es un proyecto web que simula una sitio web sencilla estilo landing page de
 
 Si deseas probar el proyecto de manera local, puedes utilizar las siguientes instrucciones.
 
-1. Clona este repositorio: ```git clone https://github.com/rosendocamal/mermelartepdc.github.io.git```
-2. Navega al directorio del proyecto: ```cd mermelartepdc.github.io.git```
+1. Clona este repositorio: ```git clone https://github.com/rosendocamal/mermelarte.github.io.git```
+2. Navega al directorio del proyecto: ```cd mermelarte.github.io.git```
 3. Abre `index.html` en tu navegador.
 
 ## Uso
 
-Este proyecto simula el sitio web publicitario y como medio de contacto de una empresa. A través de sus secciones, podrás conocer el tipo de servicio o producto que ofrece la empresa, tendrás conocimientos de su filosofía, historia, políticas y métodos de pago, y los enlaces a los medios de contacto de la empresa como WhatsApp, Facebook, Instagram y Twitter. Navega por las secciones y haz clic en los íconos y botones.
+Este proyecto simula un sitio web publicitario para una empresa de mermeladas. A través de sus secciones, podrás explorar:
+
+- El mini catálogo de productos de la tienda.
+- La historia, valores y filosofía de la empresa.
+- Políticas y métodos de pago.
+- Enlaces de contacto a WhatsApp, Facebook, Instagram y Twitter.
+
+Navega por las secciones y haz clic en los íconos y botones para interactuar.
 
 ## Capturas de pantalla
 
@@ -30,7 +37,7 @@ Este proyecto simula el sitio web publicitario y como medio de contacto de una e
 
 ## Ver Proyecto
 
-Puedes ver el proyecto en vivo [aquí.](https://rosendocamal.github.io/mermelartepdc.github.io/)
+Puedes ver el proyecto en vivo [aquí.](https://rosendocamal.github.io/mermelarte.github.io/)
 
 ## Licencia
 
@@ -39,11 +46,11 @@ Este proyecto está bajo la licencia GPL-3.0. Ver el archivo [LICENSE](LICENSE) 
 ## Créditos
 
 Este proyecto usa:
-- Este proyecto usa para el despligue **GitHub Pages**.
-- Este proyecto usa fuentes de **Google Fonts**.
-- Ciertos diseños e imágenes fueron realizado con **Canvas**.
-- Los íconos fueron creados por [Font Awesone](https://fontawesome.com/).
-- El efecto *wave* de algunas secciones se lograron gracias a [Get Waves](https://getwaves.io/).
-- La mayor parte de las imágenes son pertenecientes al banco de [Pixabay](https://pixabay.com/es/).
+- **GitHub Pages** para el despliegue del sitio web.
+- Fuentes proporcionadas por **Google Fonts**.
+- Ciertos diseños e imágenes fueron realizados con **Canvas**.
+- Íconos creados por [Font Awesone](https://fontawesome.com/).
+- El efecto *wave* de algunas secciones fue logrado gracias a [Get Waves](https://getwaves.io/).
+- Imágenes de dominio público proporcionado por [Pixabay](https://pixabay.com/es/).
 
 
