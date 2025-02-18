@@ -23,8 +23,10 @@ Este proyecto simula el sitio web publicitario y como medio de contacto de una e
 
 ## Capturas de pantalla
 
-![Vista principal](/assets/img/.mermel-arte-cover-1.png)
-![Productos](/assets/img/.mermel-arte-cover-2.png)
+<img src="/assets/img/.mermel-arte-cover-1.png" alt="Vista principal" width="250">
+<img src="/assets/img/.mermel-arte-cover-2.png" alt="Vista secundaria" width="250">
+<img src="/assets/img/.mermel-arte-cover-3.png" alt="Vista secundaria" width="250">
+<img src="/assets/img/.mermel-arte-cover-4.png" alt="Vista secundaria" width="250">
 
 ## Ver Proyecto
 
