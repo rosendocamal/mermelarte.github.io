@@ -1,0 +1,52 @@
+/* GNU General Public License v3.0 | By Rosendo Camal */
+
+.sec-principal>p,
+.sec-products>p,
+.sec-aboutus>p,
+.sec-contact>p {
+    margin: 2rem 4.5rem;
+    font-size: 100%;
+}
+
+.sec-principal button,
+.sec-aboutus button {
+    margin-bottom: 4rem;
+    color: rgb(255, 148, 112);
+    font-weight: bold;
+}
+
+.sec-principal {
+    padding-top: 12rem;
+    padding-bottom: 8rem;
+}
+
+.sec-principal .banner {
+    width: 17rem;
+    height: 17rem;
+    margin: auto;
+}
+
+.sec-principal .banner img {
+    max-width: 100%;
+}
+
+.wave svg:first-child {
+    margin-bottom: -1.1%;
+}
+
+.container-img-wave {
+    background-color: rgb(242,49,76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img-wave img {
+    max-width: min-content;
+    width: 60%;
+    padding-top: 2rem;
+}
+
+.sec-aboutus {
+    padding: 4rem 0;
+}
